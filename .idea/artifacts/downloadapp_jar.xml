@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="downloadapp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/downloadapp_jar</output-path>
+    <root id="archive" name="downloadapp.jar">
+      <element id="module-output" name="downloadapp" />
+    </root>
+  </artifact>
+</component>
