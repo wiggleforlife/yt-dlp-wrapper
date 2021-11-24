@@ -104,7 +104,7 @@ public class DownloadVideo {
         Thread ytdl = new Thread() {
             public void run() {
                 outputBuilder(new ProcessBuilder("yt-dlp", url, "-f", "mp4", "-o", "~/Downloads/%(id)s.%(ext)s"));
-                showMessageDialog(null, "Download finished. The video should be in your Downloads folder.");
+                showMessageDialog(null, "Process finished. Please check the output in the downloader window before closing this message.\nThe video should be in your Downloads folder.");
                 win2.close();
                 outputBuilder(new ProcessBuilder("rm", "yt-dlp"));
             }
